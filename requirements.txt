@@ -1,0 +1,9 @@
+torch>=1.10
+torchvision
+diffusers>=0.17
+einops
+tqdm
+opencv-python
+Pillow
+matplotlib
+numpy
