@@ -1,9 +1,0 @@
-class ColoredImageDataset(Dataset):
-    def __init__(self, data_clean, data_noise, transforms=None):
-        super(ColoredImageDataset, self).__init__()
-        self.clean = data_clean
-        self.noise = data_noise
-        self.transforms = transforms
-
-    def __len__(self):
-        return len(self.clean)
